@@ -99,6 +99,6 @@ launch laserscan merger for integration of Kinect and LiDAR.
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
 
-![AMR Design](https://github.com/wilvn10/Linorobot-Melodic/tree/master/image/AMR.jpg)
+![AMR Design](https://github.com/wilvn10/Linorobot-Melodic/tree/master/image/AMR.png)
 
 
