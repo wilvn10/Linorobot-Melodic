@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+
+<launch>
+
+  <!-- 
+	Note: 
+	 - Button mapping specific for Logitech and xbox joysticks 
+	 - You may need to remap by changing params below
+	-->
+	<arg name="mapping_button" value="q" />
+	<arg name="lidar_button" value="w" />
+	<arg name="kinect_button" value="e" />
+	<arg name="joystick_button" value="j" />
+	<arg name="save_map_button" value="s" />
+  
+
+
+  	<node pkg="linorobot" type="joy_launch_control.py" name="joy_launch_control" output="screen"/>
+			<param name="/linorobot/mapping" value="$(arg mapping_button)" type="string" />
+			<param name="/linorobot/navigation_lidar" value="$(arg lidar_button)" type="string" />
+			<param name="/linorobot/navigation_lidar_kinect" value="$(arg kinect_button)" type="string" />
+			<param name="/linorobot/teleop_joystick" value="$(arg joystick_button)" type="string" />
+			<param name="/linorobot/save_map" value="$(arg save_map_button)" type="string" />
+			
+			
+
+</launch>
+			

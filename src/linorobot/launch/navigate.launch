@@ -1,0 +1,11 @@
+<launch>
+    <!-- Map server -->
+    <arg name="map_file" default="$(find linorobot)/maps/map.yaml"/>
+    <node pkg="map_server" name="map_server"  type="map_server" args="$(arg map_file)" />
+
+    <!-- AMCL used for localization -->
+    <include file="$(find linorobot)/launch/include/amcl.launch" />
+    
+
+    <include file="$(find linorobot)/launch/include/move_base/move_base_2wd.launch" />
+</launch>

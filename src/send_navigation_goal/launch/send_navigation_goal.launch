@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+	<arg name="x_cor" value="-2.823" />
+	<arg name="y_cor" value="1.039" />
+ 	<arg name="w_orient" value="1.0" />
+
+  	<node pkg="send_navigation_goal" type="send_navigation_goal" name="send_navigation_goal" />
+			<param name="/linorobot/x_cor" value="$(arg x_cor)" type="double" />
+			<param name="/linorobot/y_cor" value="$(arg y_cor)" type="double" />
+			<param name="/linorobot/w_orient" value="$(arg w_orient)" type="double" />
+		
+
+</launch>
+			

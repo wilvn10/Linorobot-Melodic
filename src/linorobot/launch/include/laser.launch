@@ -1,0 +1,18 @@
+<launch>
+    <arg name="kinect1" default="false"/>
+
+    <include file="$(find linorobot)/launch/include/lidar/rplidar.launch">
+	<arg name="kinect2" value="$(arg kinect1)"/>
+    </include>
+    
+    <group if="$(arg kinect1)">
+      <include  file="$(find linorobot)/launch/include/lidar/kinect.launch"/>
+      <!--include  file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch"/-->
+    </group>
+
+
+    <!-- Publish static transform of the laser. Define your sensor offset here -->
+     <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_laser" args="0.178 -0.146 0.25 0 0 0  base_link laser"/>
+</launch>
+
+
