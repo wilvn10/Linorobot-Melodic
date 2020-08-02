@@ -9,7 +9,7 @@ https://github.com/linorobot/linorobot
 2. Dr. Rusman Rusyadi (@rusmanr)
 
 ## Objectives:
-1. Build an Autonomous Mobile Robot that able to navigate itself in a map using Linorobot.
+1. Build an Autonomous Mobile Robot that able to navigate itself in a map using Linorobot software to deliver goods.
 2. Make the Linorobot compatible with ROS Melodic 18.04
 3. Integrate XBOX Kinect V1 (for detecting hovering obstacles) and LiDAR for obstacle detection.
 4. Implementation of ultrasonic sensor in the lower part of the robot to prevent the robot collide into small obstacles.
@@ -95,6 +95,6 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
 
-![GitHub Logo](/images/logo.png)
+![AMR_Design](/images/logo.png)
 
 
