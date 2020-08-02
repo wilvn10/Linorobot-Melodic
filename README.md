@@ -14,6 +14,17 @@ https://github.com/linorobot/linorobot
 3. Integrate XBOX Kinect V1 (for detecting hovering obstacles) and LiDAR for obstacle detection.
 4. Implementation of ultrasonic sensor in the lower part of the robot to prevent the robot collide into small obstacles.
 
+## Components:
+1. Teensy 4.0
+2. RPLiDAR A2
+3. XBOX Kinect V1
+4. IMU (MPU-9250)
+5. Rotary Encoder
+5. Ultrasonic Sensor (HC-SR04)
+6. Motor Driver (IBT-2)
+7. DC Motor 24V
+8. Accumulator Maintenance Free Battery 12V
+
 ## How to Run the Code:
 
 Install all perquisite packages to the system as shown in Chapter 3, section 3.9 ROS Package. Download this thesis source file.
@@ -83,4 +94,7 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 > $ roslaunch linorobot bringup_kinect.launch
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
+
+![GitHub Logo](/images/logo.png)
+
 
