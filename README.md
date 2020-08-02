@@ -41,7 +41,8 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 3. Create Teensy uDdev rules as shown in Chapter 4, section 4.1 Teensy 4.0 uDev Rules using the following command:
 
-> $ rosrun lino_udev lino_udev.py – follow the instruction on the screen.
+> $ rosrun lino_udev lino_udev.py 
+follow the instruction on the screen.
 
 > $ sudo cp 58-lino.rules /etc/udev/rules.d/58-lino.rules
 
@@ -67,13 +68,16 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 > $ rviz –d slam.rviz
 
-> $ rosrun map_server map_saver –f ~/($your_directory)/src/linorobot/maps/map – saving the map
+> $ rosrun map_server map_saver –f ~/($your_directory)/src/linorobot/maps/map
+saving the map
 
 6. To do the navigation, launch the linobase, Kinect, LiDAR node and navigation stack using the following command:
 
-> $ roslaunch linorobot bringup_kinect.launch – wait until IMU received the data
+> $ roslaunch linorobot bringup_kinect.launch 
+wait until IMU received the data
 
-> $ roslaunch ira_laser_tools laserscan_multi_merger.launch – launch laserscan merger for integration of Kinect and LiDAR.
+> $ roslaunch ira_laser_tools laserscan_multi_merger.launch 
+launch laserscan merger for integration of Kinect and LiDAR.
 
 > $ roslaunch linorobot navigate.launch
 
