@@ -95,6 +95,6 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
 
-![AMR_Design](/images/logo.png)
+![AMR_Design](/images/AMR.png)
 
 
