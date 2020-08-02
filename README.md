@@ -37,7 +37,7 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 2. Make Teensy uDev 49-Rules from:
 
- https://www.pjrc.com/teensy/49-teensy.rules
+   https://www.pjrc.com/teensy/49-teensy.rules
 
 3. Create Teensy uDdev rules as shown in Chapter 4, section 4.1 Teensy 4.0 uDev Rules using the following command:
 
@@ -69,7 +69,8 @@ follow the instruction on the screen.
 > $ rviz –d slam.rviz
 
 > $ rosrun map_server map_saver –f ~/($your_directory)/src/linorobot/maps/map
-saving the map
+
+  saving the map
 
 6. To do the navigation, launch the linobase, Kinect, LiDAR node and navigation stack using the following command:
 
@@ -85,13 +86,14 @@ launch laserscan merger for integration of Kinect and LiDAR.
 
 > $ rviz –d navigate.rviz
 
- Localize the robot on the map using “2D Post Estimate” button in the RViZ.
+  Localize the robot on the map using “2D Post Estimate” button in the RViZ.
 
- To set a goal in the RViZ, use “2D Nav Goal” button and click any known space on the map.
+  To set a goal in the RViZ, use “2D Nav Goal” button and click any known space on the map.
 
  To send a pre-determined goal coordinate, use the following command: 
  >$ roslaunch send_navigation_goal send_navigation_goal.launch 
- set the x, y and orientation goal in the x_cor, y_cor and w_orient parameter inside send_navigation_goal.launch file.
+ 
+  set the x, y and orientation goal in the x_cor, y_cor and w_orient parameter inside send_navigation_goal.launch file.
 
 7. To do the AR-Tag follower, launch the following code:
 
