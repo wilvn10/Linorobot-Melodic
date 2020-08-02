@@ -18,7 +18,7 @@ https://github.com/linorobot/linorobot
 
 Install all perquisite packages to the system as shown in Chapter 3, section 3.9 ROS Package. Download this thesis source file.
 
- Install python package for Teensy uDev rule.
+> Install python package for Teensy uDev rule.
 
 o'$ sudo apt-get install python-gtk2'
 
