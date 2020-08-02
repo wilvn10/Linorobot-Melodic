@@ -1,18 +1,18 @@
 # Linorobot-Melodic
 Linorobot for Melodic with implementation of LiDAR, XBOX Kinect V1 and ultrasonic sensors.
 
-Author:
+##Author:
 
 1. Wilvan Gunawan Wirjono (@wilvn10)
 2. Dr. Rusman Rusyadi (@rusmanr)
 
-Objectives:
+##Objectives:
 1. Build an Autonomous Mobile Robot that able to navigate itself in a map using Linorobot.
 2. Make the Linorobot compatible with ROS Melodic 18.04
 3. Integrate XBOX Kinect V1 (for detecting hovering obstacles) and LiDAR for obstacle detection.
 4. Implementation of ultrasonic sensor in the lower part of the robot to prevent the robot collide into small obstacles.
 
-How to Run the Code:
+##How to Run the Code:
 
 Install all perquisite packages to the system as shown in Chapter 3, section 3.9 ROS Package. Download this thesis source file.
 
