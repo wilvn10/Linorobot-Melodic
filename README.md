@@ -1,5 +1,7 @@
 # Linorobot-Melodic
 Linorobot for Melodic with implementation of LiDAR, XBOX Kinect V1 and ultrasonic sensors.
+This code is modified from the original Linorobot:
+https://github.com/linorobot/linorobot
 
 ## Author:
 
@@ -18,7 +20,7 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
  Install python package for Teensy uDev rule.
 
-o $ sudo apt-get install python-gtk2
+o'$ sudo apt-get install python-gtk2'
 
 o $ sudo apt-get install python-gobject
 
