@@ -95,6 +95,6 @@ Install all perquisite packages to the system as shown in Chapter 3, section 3.9
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
 
-![AMR_Design](/images/AMR.jpg)
+![AMR Design](https://github.com/wilvn10/Linorobot-Melodic/tree/master/image/AMR.jpg)
 
 
