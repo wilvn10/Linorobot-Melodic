@@ -5,8 +5,8 @@ https://github.com/linorobot/linorobot
 
 ## Author:
 
-1. Wilvan Gunawan Wirjono (@wilvn10)
-2. Dr. Rusman Rusyadi (@rusmanr)
+1. Wilvan Gunawan Wirjono ([@wilvn10](https://github.com/wilvn10))
+2. Dr. Rusman Rusyadi ([@rusmanr](https://github.com/rusmanr))
 
 ## Objectives:
 1. Build an Autonomous Mobile Robot that able to navigate itself in a map using Linorobot software to deliver goods.
