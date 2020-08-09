@@ -104,7 +104,7 @@ launch laserscan merger for integration of Kinect and LiDAR.
 
 ## Wiring Diagram:
 
-The reference for the wiring diagram can be seen from ([Linorobot Repository](https://github.com/linorobot/linorobot/wiki/2.-Base-Controller))
+The reference for the wiring diagram can be seen from [Linorobot Repository](https://github.com/linorobot/linorobot/wiki/2.-Base-Controller)
 
 ![Wiring Diagram](https://github.com/wilvn10/Linorobot-Melodic/blob/master/image/Wiring%20Diagram.png)
 
