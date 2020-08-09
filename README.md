@@ -1,6 +1,6 @@
 # Linorobot-Melodic
 Linorobot for Melodic with implementation of LiDAR, XBOX Kinect V1 and ultrasonic sensors.
-This code is modified from the original Linorobot:
+This code is modified from the original Linorobot Repository:
 https://github.com/linorobot/linorobot
 
 ## Author:
@@ -27,8 +27,6 @@ https://github.com/linorobot/linorobot
 9. Teensy Arduino Shield Adapter ([Sparkfun](https://www.sparkfun.com/products/15716))
 
 ## How to Run the Code:
-
-Install all perquisite packages to the system as shown in Chapter 3, section 3.9 ROS Package. Download this thesis source file.
 
 1. Install python package for Teensy uDev rule.
 
