@@ -24,6 +24,7 @@ https://github.com/linorobot/linorobot
 6. Motor Driver (IBT-2)
 7. DC Motor 24V
 8. Accumulator Maintenance Free Battery 12V
+9. Teensy Arduino Shield Adapter ([Sparkfun](https://www.sparkfun.com/products/15716))
 
 ## How to Run the Code:
 
@@ -100,6 +101,16 @@ launch laserscan merger for integration of Kinect and LiDAR.
 > $ roslaunch linorobot bringup_kinect.launch
 
 > $ roslaunch ar_tag_toolbox ar_follower.launch
+
+## Wiring Diagram:
+
+The reference for the wiring diagram can be seen from ([Linorobot Repository](https://github.com/linorobot/linorobot/wiki/2.-Base-Controller))
+
+![Wiring Diagram](https://github.com/wilvn10/Linorobot-Melodic/blob/master/image/Wiring%20Diagram.png)
+
+
+
+## Picture of the AMR:
 
 ![AMR Design](https://github.com/wilvn10/Linorobot-Melodic/tree/master/image/AMR.png)
 
