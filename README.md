@@ -28,6 +28,8 @@ https://github.com/linorobot/linorobot
 
 ## How to Run the Code:
 
+0. Install Lino Package dependancy from ([Lino Install Repo](https://github.com/linorobot/lino_install))
+
 1. Install python package for Teensy uDev rule.
 
 > $ sudo apt-get install python-gtk2'
@@ -38,7 +40,7 @@ https://github.com/linorobot/linorobot
 
    https://www.pjrc.com/teensy/49-teensy.rules
 
-3. Create Teensy uDdev rules as shown in Chapter 4, section 4.1 Teensy 4.0 uDev Rules using the following command:
+3. Create Teensy uDdev rules using the following command:
 
 > $ rosrun lino_udev lino_udev.py 
 follow the instruction on the screen.
