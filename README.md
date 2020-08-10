@@ -28,7 +28,7 @@ https://github.com/linorobot/linorobot
 
 ## How to Run the Code:
 
-0. Install Lino Package dependancy from ([Lino Install Repo](https://github.com/linorobot/lino_install))
+0. Install Lino Package dependancy from [Lino Install Repo](https://github.com/linorobot/lino_install)
 
 1. Install python package for Teensy uDev rule.
 
